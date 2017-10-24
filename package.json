@@ -1,25 +1,21 @@
 {
-  "name": "mocha-chrome",
-  "version": "0.2.1",
-  "description": "☕  Run Mocha tests using headless Google Chrome",
+  "name": "@zambezi/mocha-headless-chrome",
+  "version": "0.3.0",
+  "description": "Run Mocha tests using headless Google Chrome",
   "main": "index.js",
   "scripts": {
-    "bdd": "mocha test/test.js test/cli.js --timeout 10000",
-    "lint": "eslint index.js bin/* lib/*.js test/*.js",
-    "test": "npm run lint && npm run bdd"
+    "unit": "mocha test/test.js test/cli.js --timeout 10000",
+    "standard": "standard",
+    "test": "npm run standard && npm run unit"
   },
   "bin": {
-    "mocha-chrome": "./bin/mocha-chrome"
+    "mocha-headless-chrome": "./bin/mocha-headless-chrome"
   },
   "engines": {
-    "node": ">= 7.6.0"
+    "node": ">= 6.0.0"
   },
-  "repository": "shellscape/mocha-chrome",
-  "author": {
-    "name": "Andrew Powell",
-    "email": "andrew@shellscape.org",
-    "url": "shellscape.org"
-  },
+  "repository": "zambezi/mocha-headless-chrome",
+  "author": "zambezi",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.0.1",
@@ -33,9 +29,8 @@
   },
   "devDependencies": {
     "chai": "^4.1.0",
-    "eslint": "^4.3.0",
-    "eslint-config-shellscape": "^1.0.1",
     "execa": "^0.8.0",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "standard": "^10.0.3"
   }
 }

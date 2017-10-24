@@ -1,32 +1,22 @@
-> Please note that this template is not optional. If you proceed with this form,
-please fill out **_all_** fields, or your issue may be closed as "invalid."
-Please do not delete this template. Please do remove this header to acknowledge this message.
+<!--- Provide a general summary of the issue in the Title above -->
 
-* Operating System:
-* Node Version:
-* NPM Version:
-* mocha Version:
-* mocha-chrome Version:
+## Expected Behavior
+<!--- If you're describing a bug, tell us what should happen. If you're suggesting a change/improvement, tell us how it should work -->
 
-<!-- Please place an x in all [ ] that apply -->
+## Current Behavior
+<!--- If describing a bug, tell us what happens instead of the expected behavior. If suggesting a change/improvement, explain the difference from current behavior. Screenshots (where appropriate) more than welcome! -->
 
-- [ ] This is a **feature** request
-- [ ] This is a **bug**
+## Steps to Reproduce (for bugs)
+<!--- Provide a link to a live example, or an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant -->
+1.
+2.
+3.
 
-### Code
+## Context
+<!--- How has this issue affected you? What are you trying to accomplish? Providing context helps us come up with a solution that is most useful in the real world -->
 
-<!-- If you have a large amount of code to share which demonstrates the problem you're
-experiencing, please provide a link to your repository rather than pasting code.
-Otherwise, please paste relevant short snippets below. -->
-
-```js
-  // code
-```
-
-### Expected Behavior
-
-### Actual Behavior
-
-### For Bugs; How can we reproduce the behavior?
-
-### For Features; What is the motivation and/or use-case for the feature?
+## Environment
+<!--- Include as many relevant details about the environment you experienced the bug in -->
+* Version used:
+* Environment name and version (e.g. Chrome 39, node.js 5.4):
+* Operating System and version (desktop or mobile):

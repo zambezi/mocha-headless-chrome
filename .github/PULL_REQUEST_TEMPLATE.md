@@ -1,33 +1,25 @@
-> Thank you for submitting a pull request! Please note that this template is not
-optional. Please fill out **_all_** fields, or your pull request may be rejected.
-Please do not delete this template. Please do remove this header to acknowledge this message.
+<!--- Provide a general summary of your changes in the Title above -->
 
-<!-- Please place an x in all [ ] that apply -->
+## Description
+<!--- Describe your changes in detail. Screenshots (where appropriate) more than welcome! -->
 
-- [ ] This is a **bugfix**
-- [ ] This is a new **feature**
-- [ ] This is a **code refactor**
-- [ ] This is a **test update**
-- [ ] This is a **typo fix**
-- [ ] This is a **metadata update**
+## Motivation and Context
+<!--- Why is this change required? What problem does it solve? If it fixes an open issue, please link to the issue here. -->
 
-### For Bugs and Features; did you add new tests?
+## How Was This Tested?
+<!--- Please describe in detail how you tested your changes. Include details of your testing environment, and the tests you ran to see how your change affects other areas of the code, etc. -->
 
-<!-- Please note that we won't approve your changes if you don't add tests. -->
+## Types of changes
+<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to change)
 
-### Motivation / Use-Case
-
-<!--
-  Please explain the **motivation** or use-case for making this change.
-  What existing problem does the pull request solve?
-  If this Pull Request addresses an issue, please link to the issue.
--->
-
-### Breaking Changes
-
-<!--
-  If this PR introduces a breaking change, please describe the impact and a
-  migration path for existing applications.
--->
-
-### Additional Info
+## Checklist:
+<!--- Go over all the following points, and put an `x` in all the boxes that apply. If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
+- [ ] My change follows the style of this project
+- [ ] My change requires a change to the documentation
+- [ ] I have updated the documentation accordingly
+- [ ] I have read the [contribution guidelines](../CONTRIBUTING.md)
+- [ ] I have added tests to cover my changes
+- [ ] All new and existing tests passed
