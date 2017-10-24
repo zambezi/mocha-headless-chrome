@@ -1,12 +1,12 @@
 # mocha-headless-chrome
 
-Run Mocha tests using headless Google Chrome.
+Run Mocha tests with Node.js using headless Google Chrome.
 
-This tool is a fork of https://github.com/shellscape/mocha-chrome. It adds support of Node.JS 6.x as well as fixing few quirks.
+This tool is a fork of https://github.com/shellscape/mocha-chrome. It adds support of Node.js 6.x as well as fixing few design quirks.
 
 ## Getting Started
 
-To begin, you'll need to install `mocha-chrome`:
+To begin, you'll need to install `@zambezi/mocha-headless-chrome`:
 
 ```console
 $ npm install @zambezi/mocha-headless-chrome --save-dev
@@ -71,7 +71,7 @@ $ mocha-headless-chrome --help
 ```
 
 
-### Reporters
+## Reporters
 
 Third party reporter have to be loaded within the page to be used. For instance to use `mocha-teamcity-reporter` ;
 
