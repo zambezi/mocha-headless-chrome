@@ -4,7 +4,7 @@ Run Mocha tests with Node.js using headless Google Chrome.
 
 They are alternative npm packages to do this task but this one differs from the other existing one by
  - Working on Node.js < 8 
- - Don't rely on GoogleChrome/puppeteer. Which make it faster and lighter.
+ - Not relying on GoogleChrome/puppeteer. Which make it faster and lighter.
 
 ## Getting Started
 
