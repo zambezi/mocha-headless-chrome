@@ -2,7 +2,9 @@
 
 Run Mocha tests with Node.js using headless Google Chrome.
 
-This tool is a fork of https://github.com/shellscape/mocha-chrome. It adds support of Node.js 6.x as well as fixing few design quirks.
+They are alternative npm packages to do this task but this one differs from the other existing one by
+ - Working on Node.js < 8 
+ - Don't rely on GoogleChrome/puppeteer. Which make it faster and lighter.
 
 ## Getting Started
 
@@ -141,3 +143,7 @@ which will shim `document.cookie` with _very basic_ support:
 ```console
 $ npm test
 ```
+
+## attribution 
+
+This tool is a fork of https://github.com/shellscape/mocha-chrome. It adds supports of Node.js 6.x as well as fixing few quirks.
